@@ -1,0 +1,36 @@
+@media screen and (max-width: 992px) {
+/*------------experience---------------*/
+  #work .left-item .experience-circle {
+    display: none;
+  }
+  #work .left-item .experience-content::after {
+    display: none;
+  }
+  #work .left-item::after {
+    display: none;
+  }
+  #work .left-item .experience-content {
+    margin-right: 0px;
+  }
+  #work .right-item{
+	  float: none;
+  }
+  #work.right-item .experience-content::after {
+    display: none;
+  }
+  #work .right-item::after {
+    display: none;
+  }
+  #work .right-item .experience-circle {
+    display: none;
+  }
+  #work .right-item .experience-content {
+    margin-left: 0px;
+  }
+  .experience-top-margin {
+    margin-top: 40px;
+  }
+  #client-testimonial .owl-carousel .owl-wrapper-outer {
+    min-height: 425px;
+  }
+}
